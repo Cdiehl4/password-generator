@@ -16,3 +16,18 @@ return "069150"
 } 	
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
+
+var uppercase = window.confirm(
+    "Click OKAY to confirm including uppercase characters. Click CANCEL to not include.");
+
+  var lowercase = window.confirm(
+    "Click OKAY to confirm including lower characters.Click CANCEL to not include.");
+
+  var specialcase = window.confirm(
+    "Click OKAY to confirm including special characters.Click CANCEL to not include.");
+
+  var numerical = window.confirm(
+    "Click OKAY to confirm including numbers.Click CANCEL to not include.");
+
+
+	
